@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .headers{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-color: rgb(14, 1, 1);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    .links{
+      text-decoration: none;
+    }
+  }
+  .footer{
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: rgb(10, 1, 1);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  }
+  .book-list{
+  
+  display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 5rem auto;
+
+   img{
+    height: 500px;
+   
+}
+
+
+
+
+   .book{
+     display: flex;
+   
+     align-items: center;
+     justify-content: space-evenly;
+    gap: 3rem;
+    margin-top:3rem;
+   }
+   .cards{
+   text-align: center;
+   transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+}
+
+ .cards:hover{
+    transform: scale(1.1);
+   }
+
+
+   .btn{
+    padding: 10px;
+    background: black;
+    color: white;
+    width: 300px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+  }
+
+
+//************************************
+
+.favorites{
+  
+  display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 5rem auto;
+
+   img{
+    height: 500px;
+   
+}
+
+
+.favorite-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ gap: 3rem;
+ flex-wrap: wrap;
+ margin-top:3rem;
+}
+.cards{
+text-align: center;
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+}
+
+.cards:hover{
+ transform: scale(1.1);
+}
+
+
+.btn{
+ padding: 10px;
+ background: black;
+ color: white;
+ width: 300px;
+ border-radius: 15px;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+}
+
+
+}
+     
+.book-details{
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+ 
+.book-description{
+  margin: 0 10px;
+  
+
+}
+
+}    
+
+  
+  
